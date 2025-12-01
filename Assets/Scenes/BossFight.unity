@@ -499,6 +499,14 @@ PrefabInstance:
       propertyPath: attackLayerMask.m_Bits
       value: 64
       objectReference: {fileID: 0}
+    - target: {fileID: 339477802832129869, guid: b6aba049213e51e4fb6c1549e4b994df, type: 3}
+      propertyPath: airDrag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 339477802832129869, guid: b6aba049213e51e4fb6c1549e4b994df, type: 3}
+      propertyPath: jumpForce
+      value: 4000
+      objectReference: {fileID: 0}
     - target: {fileID: 339477803513620800, guid: b6aba049213e51e4fb6c1549e4b994df, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -917,6 +925,7 @@ MonoBehaviour:
   - rid: 6743710563119923263
   - rid: 6743710563119923633
   - rid: 6743710563119923954
+  - rid: 6743710568907277305
   m_OriginalGraph: {fileID: 1445541541810019409, guid: da25b8be034bae04aa373b6ebcf76c5a, type: 2}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -947,6 +956,14 @@ MonoBehaviour:
           m_Value1: 11234716754526805695
         Name: Animator
         m_Value: {fileID: 2133872194}
+    - rid: 6743710568907277305
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 12868481884894845287
+          m_Value1: 13221881739602824729
+        Name: Player
+        m_Value: {fileID: 521569318}
 --- !u!4 &996688955
 Transform:
   m_ObjectHideFlags: 0
@@ -1012,7 +1029,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996688953}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
   m_Name: 
@@ -1028,7 +1045,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996688953}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
   m_Name: 
